@@ -1,0 +1,33 @@
+@charset "UTF-8";
+body {
+	padding-top: 60px;
+	padding-bottom: 40px;
+	margin-left: 0px;
+	margin-right: 0px;
+	line-height: 110%;
+	font-family: 'Meiryo UI','メイリオ','ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro',Tahoma;
+}
+img {border: none;}
+.BarBoxShadow { box-shadow: 3px 3px 5px black; }
+.ImgBoxShadow { box-shadow: 2px 2px 3px black; }
+.summary {
+	background: rgba(219, 235, 246, 1);
+	padding-left: 360px;
+}
+.dashboard {
+	background: rgba(250, 255, 255, 1);
+	padding-left: 360px;
+	padding-top: -200px;
+}
+.footer {
+	background: rgba(240, 240, 240, 1);
+	padding-left: 360px;
+}
+.anzu {
+	font-family: 'APJapanesefont';
+	font-size: 160%;
+}
+@font-face {
+	font-family: 'APJapanesefont';
+	src: url('../../font/APJapanesefont.ttf') format('truetype');
+}
